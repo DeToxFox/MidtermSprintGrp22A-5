@@ -1,3 +1,6 @@
+# hello Mak
+
+
 personName = input('Enter your name: ')
 tripLocal = input('Enter the trip location: ')
 tripDays = int(input('Enter the number of days: '))
