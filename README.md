@@ -5,7 +5,7 @@ The official submittal for Project 1 is Grp22A-5 SprintProjct 1.py, this file wa
 
 Project 2 (Trello) is listed as SprintWeek Project 2 David Turner and is a word document.
 
-DTfunction.py was my working file for the Option 1 - Enter an Employee Travel Claim function and also the "Other" function which is a calculation based function for finding the differnce between 2 date a user would input and returning it as an int and reference in the code as number of days.
+DTfunction.py was my working file for the Option 1 - Enter an Employee Travel Claim function and also the "Other" function which is a calculation based function for finding the differnce between 2 dates a user would input and returning it as an int and reference in the code as number of days.
 
 Other files such as MainMenuWokInProgess.py and MainWithCalcFunction.py were testing based files for errors.
 
