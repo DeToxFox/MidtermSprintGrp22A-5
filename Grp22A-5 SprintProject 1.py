@@ -355,7 +355,7 @@ def Emp_Trav_Claim():
         print("-" * 38)
         print(" " * 12, "Total Claim")
         print("-" * 38)
-        print("{:<28} {:>7}".format("Claim Amount:", Claim_AmountDsp))
+        print("{:<28} {:>9}".format("Claim Amount:", Claim_AmountDsp))
         print("{:<30} {:>7}".format("HST Amount:", TaxDsp))
         print(" " * 26, "-" * 11)
         print("{:<28} {:>9}".format("Claim Total:", Total_ClaimDsp))
