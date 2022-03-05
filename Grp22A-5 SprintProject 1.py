@@ -115,8 +115,8 @@ def Emp_Trav_Claim():
             Allowed_Char = set("ABCDEFGHIJKLMONPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz1234567890-'")
             First_Name = input("Enter the your first name (type End to exit):        ").title()
             if First_Name == "End":
-                exit(User_Choices())
                 print()
+                return
             elif First_Name == "":
                 print("First name must not be blank - please re-enter.")
             elif set(First_Name).issubset(Allowed_Char) == False:
@@ -369,7 +369,7 @@ def Emp_Trav_Claim():
             else:
                 break
         if Continue == "N":
-            break
+            return
 
 def Fun_Question():
 
@@ -413,7 +413,7 @@ def Fun_Question():
         enter_new_info = input("Press any key to continue...")
         print("")
         if enter_new_info == "":
-            exit(User_Choices())
+            return
 
 
 def Strings_Dates():
@@ -577,7 +577,7 @@ def Strings_Dates():
         enter_new_info = input("Press any key to continue...")
         print("")
         if enter_new_info == "":
-            exit(User_Choices())
+            return
 
 
 def Graph_Monthly_Totals():
@@ -666,7 +666,7 @@ def Graph_Monthly_Totals():
 
     # Return/display the graph to the user
     plt.show()
-    exit(User_Choices())
+    return
 
 # User choices
 def User_Choices():
@@ -692,7 +692,7 @@ def User_Choices():
 
 # The programs is the main that calls the user chooses menu.
 # Without it the other functions listed would not return to the menu for another user choice.
-# In all the main user functions there is an exit(User_Choice()) used to return to
-# and present the user options again
+# In all the main user functions there is a return that is blank as there is not a specific value
+# to pass on, so it take the user back to the main menu of choices
 
 User_Choices()
